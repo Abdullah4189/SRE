@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adlam_display</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/battambang</item>
+        <item>@font/battambang_bold</item>
+        <item>@font/battambang_light</item>
+        <item>@font/inter</item>
+        <item>@font/inter_medium</item>
+        <item>@font/jockey_one</item>
+        <item>@font/manuale_light</item>
+        <item>@font/milonga</item>
+    </array>
+</resources>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity.User_detail">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="322dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/stroke_rectangle"
+        android:backgroundTint="@color/white"
+        android:elevation="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/baseline_person_24_focused"
+            app:tint="@color/black" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="60dp"
+            android:fontFamily="@font/jockey_one"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/battambang"
+            android:text="Abdullah"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="322dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="12dp"
+
+        android:background="@drawable/stroke_rectangle"
+        android:backgroundTint="@color/white"
+        android:elevation="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/baseline_email_24"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="60dp"
+            android:gravity="center"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="60dp"
+            android:fontFamily="@font/battambang"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:id="@+id/emailTV"
+            android:text="abcd@gmail.com"
+            android:textSize="20dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/TC"
+        android:layout_width="322dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/stroke_rectangle"
+        android:backgroundTint="@color/white"
+        android:elevation="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/document_icon_8"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="60dp"
+            android:fontFamily="@font/jockey_one"
+            android:gravity="center"
+            android:id="@+id/tcTV"
+            android:layout_gravity="center_vertical"
+            android:text="Terms and Condition"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/deleteCV"
+        android:layout_width="322dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/stroke_rectangle"
+        android:backgroundTint="@color/white"
+        android:elevation="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TC">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/baseline_delete_24"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="60dp"
+            android:fontFamily="@font/jockey_one"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="Delete Account"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="322dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/stroke_rectangle"
+        android:backgroundTint="@color/white"
+        android:id="@+id/logoutCV"
+        android:elevation="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deleteCV">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/baseline_logout_24"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="60dp"
+            android:fontFamily="@font/jockey_one"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="Logout"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="414dp"
+        android:layout_height="174dp"
+        android:layout_marginBottom="45dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/redcircle" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="115dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

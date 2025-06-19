@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1035487842179",
+    "project_id": "sustainableresourceexchange",
+    "storage_bucket": "sustainableresourceexchange.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035487842179:android:137cce8f577ccf22baf0b6",
+        "android_client_info": {
+          "package_name": "com.abc.sre"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8jWcJF_n-m8MsovQeIOm8feEgHldNGBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
